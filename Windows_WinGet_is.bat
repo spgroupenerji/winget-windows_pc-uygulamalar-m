@@ -2,7 +2,7 @@
 title SP GROUP Uygulama Kurulum Scripti
 echo Lutfen bekleyin...
 echo.
-
+winget install --id Mozilla.Thunderbird.tr --scope machine --silent --accept-package-agreements --accept-source-agreements
 winget install --id PDFgear.PDFgear --scope machine --silent --accept-package-agreements --accept-source-agreements
 winget install --id geeksoftwareGmbH.PDF24Creator --scope machine --silent --accept-package-agreements --accept-source-agreements
 winget install --id Google.EarthPro --scope machine --silent --accept-package-agreements --accept-source-agreements
